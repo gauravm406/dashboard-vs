@@ -1,0 +1,12 @@
+.auth_header {
+	height: 4rem;
+	background-color: var(--color-grey);
+	padding: 0rem 1rem;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.auth_header a {
+	font-size: 1.5rem;
+}

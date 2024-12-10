@@ -1,0 +1,36 @@
+.home {
+	height: 70vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loading_text {
+	font-size: 2rem;
+	height: 70%;
+}
+
+.home_main {
+	height: 70%;
+	width: 100%;
+}
+
+.chart_wrapper {
+	height: 100%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.chart_wrapper {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	.chart_wrapper {
+		width: 90%;
+	}
+}

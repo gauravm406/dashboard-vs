@@ -1,0 +1,25 @@
+import { noop } from "../Misc";
+
+export const DEFAULT_ANALYTICS_CONTEXT_VALUES = {
+  ageGroup: "",
+  setAgeGroup: noop,
+  gender: "",
+  setGender: noop,
+  startDate: "",
+  setStartDate: noop,
+  endDate: "",
+  setEndDate: noop,
+  selectedFeature: null,
+  setSelectedFeature: noop,
+  initialStartDate: "",
+  setInitialStartDate: noop,
+  initialEndDate: "",
+  setInitialEndDate: noop,
+  isDateInitialized: false,
+  setIsDateInitialized: noop,
+  analyticsData: null,
+  setAnalyticsData: noop,
+  isAnalyticsDataLoading: false,
+  setIsAnalyticsDataLoading: noop,
+  handleResetFilters: noop,
+};

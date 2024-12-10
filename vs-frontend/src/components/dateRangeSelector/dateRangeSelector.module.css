@@ -1,0 +1,6 @@
+.date_range_wrapper {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
